@@ -12,6 +12,7 @@
 		1166F9F71D22FAE50036242E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166F9F51D22FAE50036242E /* Main.storyboard */; };
 		1166F9F91D22FAE50036242E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1166F9F81D22FAE50036242E /* Assets.xcassets */; };
 		1166F9FC1D22FAE50036242E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166F9FA1D22FAE50036242E /* LaunchScreen.storyboard */; };
+		1166FA041D23068B0036242E /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166FA031D23068B0036242E /* PhotoTakingHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1166F9F81D22FAE50036242E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1166F9FB1D22FAE50036242E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1166F9FD1D22FAE50036242E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1166FA031D23068B0036242E /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTakingHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1166F9F01D22FAE50036242E /* test */ = {
 			isa = PBXGroup;
 			children = (
+				1166FA051D2309420036242E /* PhotoTaking */,
 				1166F9F11D22FAE50036242E /* AppDelegate.swift */,
 				1166F9F31D22FAE50036242E /* ViewController.swift */,
 				1166F9F51D22FAE50036242E /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				1166F9FD1D22FAE50036242E /* Info.plist */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		1166FA051D2309420036242E /* PhotoTaking */ = {
+			isa = PBXGroup;
+			children = (
+				1166FA031D23068B0036242E /* PhotoTakingHelper.swift */,
+			);
+			name = PhotoTaking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1166FA041D23068B0036242E /* PhotoTakingHelper.swift in Sources */,
 				1166F9F41D22FAE50036242E /* ViewController.swift in Sources */,
 				1166F9F21D22FAE50036242E /* AppDelegate.swift in Sources */,
 			);
